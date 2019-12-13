@@ -62,13 +62,11 @@ class Gues {
             }
         }
     }
-
 }
 public class Main {
 
     public static void main(String[] args) {
         Gues g = new Gues();
-        System.out.println(g.getRandomNumber());
         g.game();
     }
 }
